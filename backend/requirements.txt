@@ -1,0 +1,26 @@
+fastapi
+uvicorn[standard]
+httpx
+pydantic[email]
+pydantic-settings
+python-jose[cryptography]
+celery[redis]
+redis==4.6.0   # pinned - do not upgrade without testing Upstash TLS compatibility
+			   # 5.x removed ssl_cert_reqs param; Celery broker requires string/flag config
+supabase
+openai
+radon
+pillow
+kaleido
+plotly
+structlog
+pytest
+pytest-asyncio
+pytest-httpx
+python-multipart
+itsdangerous
+ruff
+black
+fakeredis
+psycopg2-binary
+python-dotenv

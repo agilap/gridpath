@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="20" role="img" aria-label="Made with GridPath">
+  <linearGradient id="s" x2="0" y2="100%">
+    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <rect rx="3" width="170" height="20" fill="#30363D"/>
+  <rect rx="3" x="86" width="84" height="20" fill="#58A6FF"/>
+  <path fill="#58A6FF" d="M86 0h4v20h-4z"/>
+  <rect rx="3" width="170" height="20" fill="url(#s)"/>
+  <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+    <text x="43" y="15" fill="#E6EDF3">Made with</text>
+    <text x="127" y="15" fill="#0D1117" font-weight="700">GridPath</text>
+  </g>
+</svg>
